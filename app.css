@@ -1,9 +1,8 @@
-
-
 .container{
     margin: 90px auto;
      padding: 1.5rem 2rem;
-    width:600px;
+    width:700px;
+    height:200px;
     background-color: white;;
     box-shadow:0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s linear;
@@ -22,7 +21,7 @@ border-bottom : 1px solid;
 .content{
   margin: 0 auto;
   padding:0 0px;
-  text-align:;
+  
   
 }
 .input1,.input2{
@@ -34,21 +33,29 @@ border-bottom : 1px solid;
 .head ,.header{
   font-size:.9rem !important;
 }
-.label{
+.label1,.label2{
    font-size: .8rem!important;
    letter-spacing:1px !important;
 
 }
 
+.lside,.rside{
+  margin: 30px 10px !important;
+}
+
+}
+
+.lside,.rside{
+  margin: 30px auto;
 }
 
 .container:hover{
   box-shadow:0 5px 15px rgba(13, 20, 17, 0.2);
+
 }
 body {
   font-family: "Lato", sans-serif;
   margin: 0px;
-  /*color: hsl(209, 61%, 16%);*/
   color: hsl(211, 39%, 23%);
   background:hsl(210, 36%, 96%);
   line-height: 1.5;
@@ -79,9 +86,12 @@ border-bottom : 1px solid;
 
 }
 .content{
-  margin:40px auto;
-  text-align:center;
+  display:flex;
+  justify-content: space-between;
+  padding:20px 90px;
 }
+
+
 
 .input1,.input2{
   outline:none;
@@ -96,9 +106,8 @@ border-bottom : 1px solid;
   border: 2px solid  hsl(209, 61%, 16%);
   cursor: pointer;
   border-radius: 0.5rem;
-  margin: auto 15px;
-
 }
+
 
 .input1:hover {
  box-shadow:0 1px 3px hsl(205, 86%, 17%);
@@ -116,4 +125,3 @@ border-bottom : 1px solid;
 ::placeholder{
   color:black;
 }
-
