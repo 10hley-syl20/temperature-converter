@@ -95,8 +95,11 @@ border-bottom : 1px solid;
 
 @media only screen and (max-width: 500px){
 .container{
-  width:500px;
+  max-width:500px;
 
+}
+.leftside:hover{
+border-bottom : 1px solid;
 }
 .content{
   margin: 0 auto;
@@ -113,8 +116,9 @@ border-bottom : 1px solid;
   font-size:.9rem !important;
 }
 .label{
-   font-size: 12px !important;
+   font-size: .8rem!important;
    letter-spacing:1px !important;
 
 }
+
 }
