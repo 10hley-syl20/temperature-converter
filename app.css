@@ -92,8 +92,6 @@ border-bottom : 1px solid;
   font-size:1rem;
 }
 
-
-
 @media only screen and (max-width: 500px){
 .container{
   width:500px;
@@ -112,5 +110,4 @@ border-bottom : 1px solid;
    letter-spacing:1px !important;
 
 }
-
 }
