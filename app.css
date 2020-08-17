@@ -1,4 +1,3 @@
-
 .container{
     margin: 90px auto;
      padding: 1.5rem 2rem;
@@ -29,9 +28,8 @@ border-bottom : 1px solid;
   padding: 0 auto;
   font-size:8px;
 }
-.input1,.label{
-  margin-bottom:20px !important;
-}
+
+
 .head ,.header{
   font-size:.9rem !important;
 }
@@ -117,4 +115,5 @@ border-bottom : 1px solid;
 ::placeholder{
   color:black;
 }
+
 
