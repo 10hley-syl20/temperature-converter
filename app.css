@@ -95,7 +95,7 @@ border-bottom : 1px solid;
 
 @media only screen and (max-width: 500px){
 .container{
-  max-width:500px;
+  max-width:350px;
 
 }
 .leftside:hover{
@@ -103,14 +103,16 @@ border-bottom : 1px solid;
 }
 .content{
   margin: 0 auto;
-  padding:0 auto;
-  padding-right:25px;
+  padding:0 0px;
+  
 }
 .input1,.input2{
   width:50px;
   padding: 0 auto;
   font-size:8px;
-  margin:0 auto;
+}
+.input1{
+  margin-bottom:20px !important;
 }
 .head ,.header{
   font-size:.9rem !important;
