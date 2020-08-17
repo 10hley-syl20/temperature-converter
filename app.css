@@ -10,6 +10,38 @@
 
 }
 
+@media only screen and (max-width: 500px){
+.container{
+  max-width:350px;
+
+}
+.leftside:hover{
+border-bottom : 1px solid;
+}
+.content{
+  margin: 0 auto;
+  padding:0 0px;
+  text-align:;
+  
+}
+.input1,.input2{
+  width:50px;
+  padding: 0 auto;
+  font-size:8px;
+}
+.input1,.label{
+  margin-bottom:20px !important;
+}
+.head ,.header{
+  font-size:.9rem !important;
+}
+.label{
+   font-size: .8rem!important;
+   letter-spacing:1px !important;
+
+}
+
+}
 
 .container:hover{
   box-shadow:0 5px 15px rgba(13, 20, 17, 0.2);
@@ -85,42 +117,4 @@ border-bottom : 1px solid;
 ::placeholder{
   color:black;
 }
-.label{
-  font-size:1rem;
-  font-family: nunito;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
 
-}
-
-@media only screen and (max-width: 500px){
-.container{
-  max-width:350px;
-
-}
-.leftside:hover{
-border-bottom : 1px solid;
-}
-.content{
-  margin: 0 auto;
-  padding:0 0px;
-  
-}
-.input1,.input2{
-  width:50px;
-  padding: 0 auto;
-  font-size:8px;
-}
-.input1{
-  margin-bottom:20px !important;
-}
-.head ,.header{
-  font-size:.9rem !important;
-}
-.label{
-   font-size: .8rem!important;
-   letter-spacing:1px !important;
-
-}
-
-}
